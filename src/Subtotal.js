@@ -3,10 +3,32 @@ import "./Subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import {useStateValue} from "./StateProvider";
 import {getBasketTotal} from "./reducer";
+import {LiqPayPay} from "react-liqpay";
 
 function Subtotal() {
 
-    const [ {basket}, dispatch] = useStateValue();
+    const [{basket}, dispatch] = useStateValue();
+
+    const payInfo = {
+        amount: getBasketTotal(basket),
+        currency: 'USD',
+        title: 'Proceed to Checkout'
+    };
+
+    const ButtonComponent = () => (
+        <button style={{
+            backgroundColor: '#516ae8',
+            color: '#111',
+            borderColor: '#516ae8',
+            border: '1px solid transparent',
+            borderRadius: '4px',
+            width: '100%',
+            padding: '6px 12px',
+            cursor: 'pointer'
+        }}>
+            {`${payInfo.title}`}
+        </button>
+    );
 
     return (
         <div className="subtotal">
@@ -25,8 +47,22 @@ function Subtotal() {
                 thousandSeparator={true}
                 prefix={"$"}
             />
-            <button>Proceed to Checkout</button>
+            <LiqPayPay
+                publicKey="sandbox_i25900766834"
+                privateKey="sandbox_q6Yk0RaJInntXoPZpdMwl3A94IIBQ4Ll251RGili"
+                amount={getBasketTotal(basket)}
+                description="Payment for product"
+                currency="USD"
+                orderId={Math.floor(1 + Math.random() * 900000000)}
+                result_url={`http://localhost:3000`}
+                server_url={`http://localhost:3000`}
+                product_description="Payment for product"
+                style={{ margin: "8px" }}
+                extra={[<ButtonComponent key="1" />]}
+            />
+
         </div>
+
     );
 }
 

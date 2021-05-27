@@ -23,7 +23,7 @@ Run the project
 
 ### npm start
 
-## PS
+## P.S.
 If you want to see a working site, you should go to this link:
 
 ### https://romapyshka.github.io/diplom/

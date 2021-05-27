@@ -13,7 +13,8 @@ Install all packages
 ### npm install
 
 ## 3
-Add public and private key into file src/Subtotal.js 51 and 52 line
+You need to add your public and private key into file src/Subtotal.js 51 and 52 line for the proper operation of the payment system.
+
 
 You can find this keys on the LiqPay website. You have to register and create acount. Then you have to create a store, turn on test mode and copy API keys for test.
 

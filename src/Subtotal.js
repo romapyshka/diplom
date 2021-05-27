@@ -4,6 +4,7 @@ import CurrencyFormat from "react-currency-format";
 import {useStateValue} from "./StateProvider";
 import {getBasketTotal} from "./reducer";
 import {LiqPayPay} from "react-liqpay";
+import {Link} from "react-router-dom";
 
 function Subtotal() {
 
@@ -54,8 +55,8 @@ function Subtotal() {
                 description="Payment for product"
                 currency="USD"
                 orderId={Math.floor(1 + Math.random() * 900000000)}
-                result_url={`http://localhost:3000`}
-                server_url={`http://localhost:3000`}
+                result_url="https://romapyshka.github.io/diplom/"
+                server_url="https://romapyshka.github.io/diplom/"
                 product_description="Payment for product"
                 style={{ margin: "8px" }}
                 extra={[<ButtonComponent key="1" />]}

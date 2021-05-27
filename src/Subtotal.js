@@ -49,8 +49,8 @@ function Subtotal() {
                 prefix={"$"}
             />
             <LiqPayPay
-                publicKey="sandbox_i25900766834"
-                privateKey="sandbox_q6Yk0RaJInntXoPZpdMwl3A94IIBQ4Ll251RGili"
+                publicKey="yourPublicKey" // Here write your public LiqPay key to normal work of the site
+                privateKey="yourPrivateKey" // Here write your private LiqPay key to normal work of the site
                 amount={getBasketTotal(basket)}
                 description="Payment for product"
                 currency="USD"

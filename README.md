@@ -5,7 +5,7 @@ For run ther project you must have npm and git
 ## 1
 Clone this project:
 
-### git clone https://github.com/romapyshka/diplom.git
+### git clone https://github.com/romapyshka/diploma_code.git
 
 ## 2
 Install all packages

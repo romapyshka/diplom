@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/diplom/static/css/main.2d243cc1.chunk.css",
-    "main.js": "/diplom/static/js/main.31dc8da7.chunk.js",
-    "main.js.map": "/diplom/static/js/main.31dc8da7.chunk.js.map",
+    "main.js": "/diplom/static/js/main.46edff09.chunk.js",
+    "main.js.map": "/diplom/static/js/main.46edff09.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.66fd737f.js",
     "runtime-main.js.map": "/diplom/static/js/runtime-main.66fd737f.js.map",
-    "static/js/2.5a472bf8.chunk.js": "/diplom/static/js/2.5a472bf8.chunk.js",
-    "static/js/2.5a472bf8.chunk.js.map": "/diplom/static/js/2.5a472bf8.chunk.js.map",
+    "static/js/2.dd4522bd.chunk.js": "/diplom/static/js/2.dd4522bd.chunk.js",
+    "static/js/2.dd4522bd.chunk.js.map": "/diplom/static/js/2.dd4522bd.chunk.js.map",
     "static/js/3.434850a4.chunk.js": "/diplom/static/js/3.434850a4.chunk.js",
     "static/js/3.434850a4.chunk.js.map": "/diplom/static/js/3.434850a4.chunk.js.map",
     "index.html": "/diplom/index.html",
     "static/css/main.2d243cc1.chunk.css.map": "/diplom/static/css/main.2d243cc1.chunk.css.map",
-    "static/js/2.5a472bf8.chunk.js.LICENSE.txt": "/diplom/static/js/2.5a472bf8.chunk.js.LICENSE.txt"
+    "static/js/2.dd4522bd.chunk.js.LICENSE.txt": "/diplom/static/js/2.dd4522bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66fd737f.js",
-    "static/js/2.5a472bf8.chunk.js",
+    "static/js/2.dd4522bd.chunk.js",
     "static/css/main.2d243cc1.chunk.css",
-    "static/js/main.31dc8da7.chunk.js"
+    "static/js/main.46edff09.chunk.js"
   ]
 }

@@ -4,7 +4,6 @@ import CurrencyFormat from "react-currency-format";
 import {useStateValue} from "./StateProvider";
 import {getBasketTotal} from "./reducer";
 import {LiqPayPay} from "react-liqpay";
-import {Link} from "react-router-dom";
 
 function Subtotal() {
 
